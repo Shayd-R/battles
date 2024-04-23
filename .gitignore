@@ -1,0 +1,9 @@
+# Ignorar directorio node_modules
+node_modules/
+
+# Ignorar archivos generados automáticamente por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de configuración local
+.env

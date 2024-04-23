@@ -1,0 +1,27 @@
+<!-- public/seleccion-oponente.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de Oponente</title>
+</head>
+<body>
+    <h1>Hola, [Nombre del Jugador]</h1>
+    <p>Selecciona con quién quieres jugar:</p>
+    <button onclick="jugarConMaquina()">Jugar con la Máquina</button>
+    <button onclick="jugarConPersona()">Jugar con Otra Persona</button>
+
+    <script>
+        function jugarConMaquina() {
+            // Redirigir al jugador a la página de juego contra la máquina
+            window.location.href = '/jugar-maquina.html';
+        }
+
+        function jugarConPersona() {
+            // Redirigir al jugador a la página de selección de otra persona para jugar
+            window.location.href = '/seleccionar-oponente.html';
+        }
+    </script>
+</body>
+</html>
